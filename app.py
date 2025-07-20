@@ -12,6 +12,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+async def root():
+    return {"status": "ok", "message": "FastAPI backend is running"}
+    
 @app.post("/upload")
 async def upload_file(file: UploadFile, user_id: str = Form(...)):
     await process_document(file, user_id)
