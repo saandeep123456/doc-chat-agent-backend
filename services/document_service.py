@@ -17,7 +17,7 @@ CHROMA_DIR.mkdir(parents=True, exist_ok=True)
 
 client = chromadb.PersistentClient(path=CHROMA_DIR)
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = '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'
 # Choose embeddings
 USE_OPENAI = True  # Change to True to use OpenAI embeddings
 if USE_OPENAI:
