@@ -18,12 +18,12 @@ This is the backend for a Document-Based Chatbot built using **FastAPI**. It ena
 
 # Clone the Repository
 
-git clone [https://github.com/your-username/document-chat-backend.git](https://github.com/saandeep123456/doc-chat-agent-backend.git)
-cd doc-chat-agent-backend
+- git clone https://github.com/saandeep123456/doc-chat-agent-backend.git
+- cd doc-chat-agent-backend
 
 # Create a Virtual Environment
-python3 -m venv venv
-source venv/bin/activate (or) venv\Scripts\activate
+- python3 -m venv venv
+- source venv/bin/activate (or) venv\Scripts\activate
 
 # Install Requirements
 pip install -r requirements.txt
