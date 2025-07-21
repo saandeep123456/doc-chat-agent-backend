@@ -35,8 +35,8 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 Visit: http://localhost:8000/docs to see interactive Swagger UI
 
 # Environment Variables
-You can configure OpenAI key or other credentials using .env file if needed:
-OPENAI_API_KEY=your_key_here
+- You can configure OpenAI key or other credentials using .env file if needed:
+- OPENAI_API_KEY=your_key_here
 
 
 
